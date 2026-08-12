@@ -1,0 +1,84 @@
+<DOCTYPE html
+<html lang="en">
+<!-- encabezado que muestraimformacion al navegador-->
+ <head>
+    <!-- la pagina acepta cualquier caracter -->
+    <meta charset="UTF-8">
+    <!-- la pagina va ser responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+/* agregamos estilos css */
+</style>
+<!-- todo lo que va visualisar el usuario -->
+<body>
+<!-- el contenedor principal -->
+<main class="container">
+    <figure>
+        <img src="omelette.jpg"
+    </figure>
+
+    <h1 class="title">JUAN DANIEL RIVAS ELIAS RESTAURANTE 😍</h1>
+        <p class="paragraph">This is a simple omelet recipe that is easy to make and delicious. Perfect for breakfast or brunch!</p>
+
+        <!-- apartado de "tiempo de preparacion" -->
+        <section class="preparation-time" id="time">
+            <h3>Preparation Time</h3>
+                <!-- listas: listas ordenadas <ol> & desordenadas <ul> -->
+                    <ul>
+                        <li><strong>total Time:</strong> 10 minutes</li>
+                        <li><strong>Prep Time:</strong> 5 minutes</li>
+                        <li><strong>Cook Time:</strong> 5 minutes</li>
+                    </ul>
+                </section>
+
+<section class="Container-ingredients">
+    <h3 class="subtitle">Ingredients</h3>
+<!-- listas: listas ordenadas <ol> & desordenadas <ul> -->
+    <ul>
+        <li>2 large eggs</li>
+        <li>2 tablespoons milk</li>
+        <li>Salt and pepper to taste</li>
+        <li>1 tablespoon butter</li>
+        <li>1/4 cup shredded cheese (optional)</li>
+    </ul>
+</section>
+<hr>
+<section class="container-instructions">
+    <h3 class="subtitle">Instructions</h3>
+    <ol>
+        <li>In a bowl, whisk together the eggs, milk, salt, and pepper until well combined.</li>
+        <li>Heat a non-stick skillet over medium heat and add the butter. Allow it to melt and coat the pan.</li>
+        <li>Pour the egg mixture into the skillet and let it cook for about 1-2 minutes until the edges start to set.</li>
+        <li>Using a spatula, gently lift the edges of the omelet and tilt the pan to allow the uncooked eggs to flow to the edges.</li>
+        <li>Once the omelet is mostly set but still slightly runny on top, sprinkle the shredded cheese (if using) over one half of the omelet.</li>
+        <li>Carefully fold the other half of the omelet over the cheese and let it cook for another 1-2 minutes until the cheese is melted and the omelet is cooked through.</li>
+        <li>Slide the omelet onto a plate and serve immediately. Enjoy your delicious omelette!</li>
+    </ol>
+    </section>
+<hr>
+<!-- caja general -->
+<div class="container -nutrition">
+    <h3 class="subtitle">Nutrition</h3>
+<!-- caja para formularios -->
+ <table>
+    <tbody>
+        <tr>
+            <fd>Calories</fd>
+            <fd class="celda">277kcal</fd>
+        </tr>
+        <tr>
+            <td>Protein</td>
+            <td class="celda">200g</td>
+        </tr>
+        <tr>
+            <td>Carbohydrates</td>
+            <td class="celda">20g</td>
+            </tr>
+        </tbody>
+    </table
+</div>
+</main>
+</body>
+</html>
